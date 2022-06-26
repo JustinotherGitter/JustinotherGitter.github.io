@@ -1,6 +1,6 @@
 - [x] Quickstart following [this page](https://docs.github.com/en/pages/quickstart#changing-the-title-and-description)
 
-- [x] Implement [Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll). Skipped for javascript and css personal development.
+- [x] Implement [Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll). Skipped for javascript and css personal development started from [here](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics).
 
 - [ ] Custom domain as [such](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
 
