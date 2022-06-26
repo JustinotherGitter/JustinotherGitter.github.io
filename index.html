@@ -3,8 +3,23 @@
     <head>
         <title>Justin Cooper: Astrophysicist</title>
         <!-- <link rel="shortcut icon" type="image/x-icon" href="" /> -->
+        <link href="styles/style.css" rel="stylesheet">
     </head>
     <body>
-        <p>&#x1F5FA; - Hello World</p>
+        <div id="mySideNav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <!-- Add more side panel menu elements here -->
+            <a href="#">Contact</a>
+        </div>
+
+        <!-- Clicking on any element in the side panel should open it -->
+        <span onclick="openNav()">open</span>
+
+        <div id="main">
+            <!-- All content for page goes here -->
+            <p>&#x1F5FA; - Hello World</p>
+        </div>
+
     </body>
 </html>
