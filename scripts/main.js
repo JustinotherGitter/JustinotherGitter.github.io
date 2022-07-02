@@ -1,11 +1,17 @@
-/* Set the width of the side navigation and the left margin of the page content to 250px */
-function openNav() {
-    document.getElementById("mySideNav").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
+function toggleSideNav(item) {
+    item.classList.toggle("change");
+
+    changeNavWidth();
 }
 
-/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
-function closeNav() {
-    document.getElementById("mySideNav").style.width = "0";
-    document.getElementById("main").style.marginLeft = "0";
+function changeNavWidth() {
+    isClosed = document.getElementById("SideNav").style.width == "52px";
+    
+    if (isClosed == true) {
+        document.getElementById("SideNav").style.width = "200px";
+        document.getElementById("main").style.marginLeft = "200px";
+    } else {
+        document.getElementById("SideNav").style.width = "52px";
+        document.getElementById("main").style.marginLeft = "52px";
+    }
 }

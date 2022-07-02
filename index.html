@@ -7,19 +7,40 @@
         <script src="scripts/main.js"></script>
     </head>
     <body>
-        <div id="mySideNav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">About</a>
-            <!-- Add more side panel menu elements here -->
-            <a href="#">Contact</a>
+        <div id="SideNav" class="sidenav">
+            <button class="btn-nav nav-toggle" onclick="toggleSideNav(this)">
+                <div class="btn-content">
+                    <div class="nav-icon toggle-icon">
+                        <div class="bar-top"></div>
+                        <div class="bar-mid"></div>
+                        <div class="bar-bot"></div>
+                        </div>
+                    <div class="nav-label">Menu</div>
+                </div>
+            </button>
+            <button class="btn-nav nav-about">
+                <div class="btn-content">
+                    <div class="nav-icon about-icon"></div>
+                    <div class="nav-label">About</div>
+                </div>
+            </button>
+            <button class="btn-nav nav-projects">
+                <div class="btn-content">
+                    <div class="nav-icon projects-icon"></div>
+                    <div class="nav-label">Projects</div>
+                </div>
+            </button>
+            <button class="btn-nav nav-contact">
+                <div class="btn-content">
+                    <div class="nav-icon contact-icon"></div>
+                    <div class="nav-label">Contact</div>
+                </div>
+            </button>
         </div>
-
-        <!-- Clicking on any element in the side panel should open it -->
-        <span onclick="openNav()">open</span>
 
         <div id="main">
             <!-- All content for page goes here -->
-            <p>&#x1F5FA; - Hello World</p>
+            <h1>&#x1F5FA; - Hello World</h1>
         </div>
 
     </body>

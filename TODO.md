@@ -1,3 +1,5 @@
+# A TODO page for [my github page](https://justinothergitter.github.io/)
+
 - [x] Quickstart following [this page](https://docs.github.com/en/pages/quickstart#changing-the-title-and-description)
 
 - [x] Implement [Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll). Skipped for javascript and css personal development started from [here](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics).
@@ -6,6 +8,7 @@
 
 - [ ] Edit Side panel (created based on [this](https://www.w3schools.com/howto/howto_js_sidenav.asp#) page.)
     - [ ] Find icons for each item
+        - [x] Animate toggle menu button like [so](https://www.w3schools.com/howto/howto_css_menu_icon.asp) and [so](https://dev.to/webdeasy/top-20-css-buttons-animations-f41)
     - [ ] Make always visible icons and hideable text
     - A good reference can be found [here](https://www.gracechuang.me/) and [here](https://www.mpkelley.com/)
 
