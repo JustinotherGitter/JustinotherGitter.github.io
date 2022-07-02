@@ -10,6 +10,12 @@
   transition: 0.5s;
 }
 
+#main {
+  left: 200px;
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
 .sidenav button {
   display: inline-block;
   width: 100%;
