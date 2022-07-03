@@ -6,10 +6,10 @@
 
 - [ ] Custom domain as [such](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
 
-- [ ] Edit Side panel (created based on [this](https://www.w3schools.com/howto/howto_js_sidenav.asp#) page.)
+- [x] Edit Side panel (created based on [this](https://www.w3schools.com/howto/howto_js_sidenav.asp#) page.)
     - [x] Find icons for each [item](https://fonts.google.com/icons?icon.style=Outlined&icon.set=Material+Symbols)
         - [ ] Animate toggle menu button like [so](https://www.w3schools.com/howto/howto_css_menu_icon.asp) and [so](https://dev.to/webdeasy/top-20-css-buttons-animations-f41)
-        - [ ] or swap symbols
+        - [x] or swap symbols
     - [ ] Make always visible icons and hideable text
     - A good reference can be found [here](https://www.gracechuang.me/) and [here](https://www.mpkelley.com/)
 
