@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Justin Cooper: Astrophysicist</title>
+        <!-- Load the CSS styling -->
+        <link href="../styles/style.css" rel="stylesheet">
+        <!-- Load the assets from googles symbols. TODO: Add assets folder to speed up initial load -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <script src="../scripts/main.js"></script>
+    </head>
+    <body class="grid-container">
+        <header class="header" style="padding-left: 16px;">
+            <h1>Justin Cooper</h1>
+        </header>
+
+        <div class="sidenav" id="SideNav" style="width: 64px;">
+            <a href="javascript:void(0)" onclick="toggleSideNav(this)">
+                <span class="material-symbols-outlined" id="ToggleIcon">Menu</span>
+                <div class="nav-label nav-label-hid">Navigation</div>
+            </a>
+            <a href="../index.html">
+                <span class="material-symbols-outlined">Apps</span>
+                <div class="nav-label nav-label-hid">About</div>
+            </a>
+            <a href="../pages/projects.html">
+                <span class="material-symbols-outlined">Auto_Awesome</span>
+                <div class="nav-label nav-label-hid">Projects</div>
+            </a>
+            <a href="../pages/contact.html">
+                <span class="material-symbols-outlined">Send</span>
+                <div class="nav-label nav-label-hid">Contact</div>
+            </a>
+        </div>
+
+        <div class="main main-left"></div>
+
+        <div id="main main-center">
+            <!-- All content for contact page goes here, contact hosted by formspree: https://formspree.io/-->
+            <div class="preform-message">
+                <h1 class="contact-message">
+                    <a href="https://youtu.be/eXQsixnoqYU">Need something?</a>
+                </h1>
+                <p>You've made it this far, why not send a message?</p>
+                <p>I'm always up to learn something new or exchange interests!</p>
+            </div>
+            <div class="contact-form">
+                <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mrgjwjrr" method="POST">
+                    <fieldset id="fs-frm-inputs">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                        
+                        <label for="email-address">Email Address</label>
+                        <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                        
+                        <label for="message">Message</label>
+                        <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+                        <!-- <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"> -->
+                    </fieldset>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+
+        <div class="main main-right"></div>
+
+        <footer class="footer"></footer>
+
+    </body>
+</html>

@@ -5,21 +5,20 @@ function toggleSideNav(item) {
     
     if (isClosed == true) {
         document.getElementById("SideNav").style.width = "200px";
-        document.getElementById("main").style.marginLeft = "200px";
-        document.getElementById("toggle-icon").textContent = "Close";
+        document.getElementsByTagName('header')[0].style.paddingLeft = "152px";
+        document.getElementById("ToggleIcon").textContent = "Close";
 
         labels.forEach(element => {
-            console.log(element);
-            element.classList.remove("label-transparent");
+            element.classList.remove("nav-label-hid");
         });
 
     } else {
         document.getElementById("SideNav").style.width = "64px";
-        document.getElementById("main").style.marginLeft = "64px";
-        document.getElementById("toggle-icon").textContent = "Menu";
+        document.getElementsByTagName('header')[0].style.paddingLeft = "16px";
+        document.getElementById("ToggleIcon").textContent = "Menu";
         
         labels.forEach(element => {
-            element.classList.add("label-transparent");
+            element.classList.add("nav-label-hid");
         });
     }
 }

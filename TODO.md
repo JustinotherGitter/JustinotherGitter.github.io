@@ -11,7 +11,7 @@
         - [ ] Animate toggle menu button like [so](https://www.w3schools.com/howto/howto_css_menu_icon.asp) and [so](https://dev.to/webdeasy/top-20-css-buttons-animations-f41)
         - [x] or swap symbols
     - [x] Make always visible icons and hideable text
-    - A good reference can be found [here](https://www.gracechuang.me/) and [here](https://www.mpkelley.com/)
+    - Good references can be found [here](https://charalambosioannou.github.io/), [here](https://www.gracechuang.me/), and [here](https://www.mpkelley.com/)
 
 - [ ] Add pages
     - [ ] Add actual pages and content for "About" at "Contact Me"
